@@ -7,15 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do home page</title>
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- google fonts -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/d56d18e9db.js" crossorigin="anonymous"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
-    
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
@@ -23,104 +26,106 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
     <!-- jQuery library -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <style>
         body {
-            background:linear-gradient(to right,rgb(8, 22, 99),rgb(0, 0, 0));
+            background: linear-gradient(to right, rgb(8, 22, 99), rgb(0, 0, 0));
         }
 
         h2 {
             color: rgb(42, 165, 149);
-           
+
             font-family: 'Pangolin', cursive;
             text-align: center;
         }
-        marquee{
+
+        marquee {
             font-family: 'Acme', sans-serif;
             height: 30px;
             margin-top: 5px;
         }
-        nav{
-           height: 30px;
-           margin-left: 10px;
-           margin-top: 10px;
+
+        nav {
+            height: 50px;
+            margin-left: 10px;
+            margin-top: 10px;
         }
-         #tab{
-            background:linear-gradient(to left,rgb(255, 255, 255),rgb(182, 22, 49)) ;
-           
-            
+
+        #tab {
+            background: linear-gradient(to left, rgb(255, 255, 255), rgb(182, 22, 49));
+
+
             font-family: 'Yomogi', cursive;
-            
-          
-        } 
+
+
+        }
     </style>
+ 
 </head>
 
-<body >
+<body>
+
     
-    <div class="container-fluid">
         <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-blue navbar-dark">
-
-
-        <a class="navbar-brand" href="#">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRycKGmEt7sKPIzroG3wPG7nldicINRoSuS9kBqnCDvQ9SVKk6oTvAAm8uSSnqZk5Zy04A&usqp=CAU"
-                width="40" height="40" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link" style="color: rgb(255, 255, 255); font-family: 'Otomanopee One', sans-serif;"
-                        href="todo.html">TO-DO List</a>
-                </li>
-                <li>
-                    <a class="nav-link" style="color: rgb(255, 255, 255); font-family: 'Otomanopee One', sans-serif;" href="index.html"  >LOG OUT</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <br>
-    <marquee style="color: rgb(255, 255, 255) ">“Each day I will accomplish one thing on my to do list.”</marquee>
-    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667" alt="" width="50px" height="30px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars" style="color: rgb(252, 246, 246);"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" target="_self">TO-DO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Log Out</a>
+                  </li>
+                      
+                 
+                </ul>
+              
+              </div>
+            </div>
+          </nav>
+        <br>
+        <marquee style="color: rgb(255, 255, 255) ">“Each day I will accomplish one thing on my to do list.”</marquee>
+        <header>
             <h2>TO-DO LIST</h2>
-    
-    </header>
-    <br>
-<div class="text-center">
-    <table class="table table-danger" id="tab">
-        <thead>
-            <tr>
-                <th scope="col">No</th>
-                <th scope="col">Name</th>
-                <th scope="col">Status</th>
-            </tr>
-        </thead>
-    </table>
-</div>
-</div>
+
+        </header>
+        <br>
+        <div class="text-center">
+            <table class="table table-danger" id="tab">
+                <thead>
+                    <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
 
 
 
-
+    <!-- JavaScript Bundle with Popper -->
     <script src="todo.js"></script>
 
 </body>
