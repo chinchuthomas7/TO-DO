@@ -22,7 +22,8 @@ $(document).ready(function(){
 
     }
 //         when the username and password is empty,it must show a message like"enter the credentials.for this we are selecting the id names of user input and password input and
-//         we are using .val(),an inbuilt method in jQuery which set the value of them as empty.
+//         we are using .val(), an inbuilt method in jQuery to set/returns the value of an attribute to the selected elements.
+    // here it will get the value of the input box with these user names
 
         
     else if ($("#user").val()=="admin" &&  $("#password").val()=="12345")
