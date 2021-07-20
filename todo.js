@@ -27,7 +27,7 @@ $('input[type="checkbox"]').on('change',function(){
         count++;
         if(count==5)
         {
-            alert('Congrats!!!5 Tasks have been Successfully Completed');
+            alert('5 Tasks have been Successfully Completed');
         }
 
         }
