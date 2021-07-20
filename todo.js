@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $("#tod").click(function(e){
     $.ajax(
         {
             url:"https://jsonplaceholder.typicode.com/todos", dataType:"json",success:function(result){
@@ -42,4 +43,5 @@ $('input[type="checkbox"]').on('change',function(){
 }
 
         })
+});
 });
