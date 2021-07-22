@@ -61,6 +61,13 @@ button{
     
     color: maroon;
 }
+
+  marquee {
+            font-family: 'Acme', sans-serif;
+            height: 30px;
+            margin-top: 5px;
+        }
+
 @media(max-width:640px){
     body{
         background-image: url(https://64.media.tumblr.com/cfce17fc4d933680ba0f49a9a39ef541/414bbd847960e773-d4/s1280x1920/0378c7689017c6728089c1ae57a1977b7213f329.jpg);
