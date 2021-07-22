@@ -62,11 +62,7 @@ button{
     color: maroon;
 }
 
-  marquee {
-            font-family: 'Acme', sans-serif;
-            height: 30px;
-            margin-top: 55px;
-        }
+  
 
 @media(max-width:640px){
     body{
